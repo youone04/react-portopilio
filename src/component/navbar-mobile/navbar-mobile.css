@@ -1,0 +1,19 @@
+.navbar-mobile{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #234B6D;
+    border-radius: 4px;
+    display: none;
+    box-shadow: 6px 1px 10px black;
+}
+.active{
+    transition: all ease 0.35s;
+}
+
+@media screen and (max-width: 600px){
+    .navbar-mobile{
+        display: inline;
+    }
+}

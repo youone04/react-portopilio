@@ -1,0 +1,60 @@
+.kontainer-kontak{
+    padding-top: 2px;
+    background: url('../../../assets/bg-body/bg-halaman-kontak.jpg');
+    height: 680px;
+    margin-bottom: -450px;
+}
+.halaman-kontak{
+    background-color: whitesmoke;
+    margin-right: 60px;
+    margin-left: 60px;
+    border-radius: 4px;
+    height: 600px;
+    box-shadow: 2px 3px 2px black;
+    transition: all ease 0.35s;
+}
+.halaman-kontak:hover{
+    transform: translateX(6px);
+}
+.judul-halaman-kontak img{
+    border-radius: 100%;
+    border-style: solid;
+    margin-left: 20px;
+    border-color: #234B6D;;
+    box-shadow: 1px 4px 10px black;
+}
+.kontainer-kontak .judul-halaman-kontak h3{
+    padding-top: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #234B6D;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.isi-halaman-kontak p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+}
+@media screen and (max-width: 600px){
+    .kontainer-kontak{
+        width: auto;
+    }
+    .halaman-kontak{
+        background-color: whitesmoke;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 4px;
+        height: 650px;
+        box-shadow: 2px 3px 2px black;
+    }
+    .halaman-kontak:hover{
+        transform: none;
+    }
+    .halaman-kontak img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+}

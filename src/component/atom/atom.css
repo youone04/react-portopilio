@@ -1,0 +1,46 @@
+.home-mobile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    margin-left: 50px;
+}
+.about-mobile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    margin-left: 60px;
+}
+.kontak-mobile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color:white;
+    float: left;
+    margin-left: 70px;
+}
+footer{
+    width: 100%; 
+    clear: both;
+    overflow: hidden;
+    bottom: 0;
+    margin-top: 456px;
+    margin-bottom: -500px;
+    padding-top: 2px;
+    color: white;
+    background-color: #234B6D;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Century Gothic';
+}
+@media screen and (max-width:600px){
+    footer{
+        margin-bottom: -450px;
+    }
+}
