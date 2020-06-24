@@ -21,3 +21,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+sed '/build/d' .gitignore > .gitignore.new && mv .gitignore.new .gitignore
