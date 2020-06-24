@@ -4,3 +4,4 @@
 3. difolder redux/action,reducers,store
 4. setiap membuat halaman di buat <import  React , {Component} from 'react'> dan class extends Component
 5. install react-router-dom' dan pasang di halaman App.js
+"start": "react-scripts start",
