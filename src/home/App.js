@@ -1,25 +1,23 @@
-import React,{Fragment} from 'react';
-import HalamanUtama from '../containers/pages/halaman_utama';
+import React ,{Fragment} from 'react';
+import './App.css';
+import MenuNavbar from '../component/menu-bar';
 import About from '../containers/pages/about';
-import MenuNavbar from '../component/menu-navbar';
+import HalamanUtama from '../containers/pages/halaman_utama';
 import Kontak from '../containers/pages/kontak';
-import './home.css';
 import NavbarMobile from '../component/navbar-mobile';
 import { Footer } from '../component/atom';
-// digunakan sebagai router
-
+import Skills from '../containers/pages/skills';
 function App() {
   return (
-    // <Router>
       <Fragment>
-            <MenuNavbar />
-            <HalamanUtama id="halamanutama" />
-            <About id="about" />
-            <Kontak id="kontak" />
-            <Footer />
-            <NavbarMobile />
+          <MenuNavbar/>
+          <HalamanUtama /><br/><br/>
+          <About/><br/><br/>
+          <Kontak /><br/><br/>
+          <Skills />
+          <Footer />
+          <NavbarMobile />
       </Fragment>
-    // </Router>
   );
 }
 export default App;

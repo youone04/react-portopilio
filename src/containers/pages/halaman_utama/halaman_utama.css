@@ -38,24 +38,17 @@
     margin-left: 20px;
     box-shadow: 1px 4px 10px black;
 }
-/* .bg-halaman-utama{
-    margin-right: 60px;
-    margin-left: 60px;
-    border-radius: 4px;
-    height: 600px;
-    background-color: rgb(0, 255, 179);
-} */
 @media screen and (max-width:600px){
     .container-halaman-utama{
         width: auto;
-        height: 800px;
+        height: 920px;
     }
     .halaman-utama{
         background-color: whitesmoke;
         margin-right: 10px;
         margin-left: 10px;
         border-radius: 4px;
-        height: 750px;
+        height: auto;
         box-shadow: 2px 3px 2px black;
     }
     .halaman-utama:hover{
@@ -71,6 +64,6 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 18px;
         margin-left: 20px;
-        margin-right: 20px;
+        padding-bottom: 30px;
     }
 }

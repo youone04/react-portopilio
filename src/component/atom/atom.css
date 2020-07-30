@@ -1,38 +1,54 @@
-.home-mobile img{
+.home-mobile{
     width: 40px;
     height: 40px;
-    border-radius: 100%;
-    border-style: solid;
-    border-color: black;
+    /* border-radius: 100%; */
+    /* border-style: solid; */
+    /* border-color: black; */
     float: left;
-    margin-left: 50px;
+    margin-left: 55px;
 }
-.about-mobile img{
+.about-mobile{
     width: 40px;
     height: 40px;
-    border-radius: 100%;
+    /* border-radius: 100%;
     border-style: solid;
-    border-color: white;
+    border-color: white; */
     float: left;
-    margin-left: 60px;
+    margin-left: 18px;
 }
-.kontak-mobile img{
+.kontak-mobile{
     width: 40px;
     height: 40px;
-    border-radius: 100%;
+    /* border-radius: 100%;
     border-style: solid;
-    border-color:white;
+    border-color:white; */
     float: left;
-    margin-left: 70px;
+    margin-left: 18px;
+}
+.skills-mobile{
+    width: 40px;
+    height: 40px;
+    /* border-radius: 100%;
+    border-style: solid;
+    border-color:black; */
+    margin-top: 5px;
+    float: left;
+    margin-left: 19px;
+    /* box-shadow: 2px 3px 5px black; */
+}
+i{
+    box-shadow: 2px 4px 5px black;
+    border-radius: 100%;
+
 }
 footer{
     width: 100%; 
     clear: both;
     overflow: hidden;
     bottom: 0;
-    margin-top: 456px;
+    margin-top: 10px;
     margin-bottom: -500px;
-    padding-top: 2px;
+    /* padding-top: 2px; */
     color: white;
     background-color: #234B6D;
     text-align: center;
@@ -41,6 +57,6 @@ footer{
 }
 @media screen and (max-width:600px){
     footer{
-        margin-bottom: -450px;
+        margin-bottom: 54px;
     }
 }

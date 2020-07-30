@@ -1,7 +1,7 @@
 import React ,{Component ,Fragment} from 'react';
 import {Link} from 'react-scroll';
 import'./navbar-mobile.css';
-import { HomeMobile, AboutMobile, KontakMobile } from '../atom';
+import { HomeMobile, AboutMobile, KontakMobile, SkillsMobile } from '../atom';
 
 class NavbarMobile extends Component{
     render(){
@@ -36,6 +36,16 @@ class NavbarMobile extends Component{
                     duration={500}
                     >
                     <KontakMobile />
+                    </Link>
+                    <Link
+                    activeClass ="active"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    >
+                    <SkillsMobile />
                     </Link>
                 </div>
             </Fragment>

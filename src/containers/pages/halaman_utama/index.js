@@ -2,6 +2,16 @@ import React,{Component , Fragment} from 'react';
 import './halaman_utama.css';
 import gambarPortopolio from '../../../assets/gambar1.png';
 class HalamanUtama extends Component{
+    // componentDidMount(){
+    //     const splashScreen = document.getElementById('splashScreen');
+    //         setInterval(function(){
+    //             window.onload = () =>{
+    //                 if(splashScreen){
+    //                     splashScreen.remove();
+    //                 }
+    //             }
+    //         })
+    // }
     render(){
         return(
             <Fragment>

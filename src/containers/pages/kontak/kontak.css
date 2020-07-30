@@ -1,5 +1,5 @@
 .kontainer-kontak{
-    padding-top: 2px;
+    padding-top: 1px;
     background: url('../../../assets/bg-body/bg-halaman-kontak.jpg');
     height: 680px;
     margin-bottom: -450px;
@@ -39,14 +39,17 @@
 @media screen and (max-width: 600px){
     .kontainer-kontak{
         width: auto;
+        height: 720px;
     }
     .halaman-kontak{
         background-color: whitesmoke;
         margin-right: 10px;
         margin-left: 10px;
         border-radius: 4px;
-        height: 650px;
+        height: auto;
+        margin-top: -90px;
         box-shadow: 2px 3px 2px black;
+        padding-bottom: 10px;
     }
     .halaman-kontak:hover{
         transform: none;

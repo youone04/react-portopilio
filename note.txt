@@ -1,7 +1,0 @@
-1. npm create-react-app <nama project>
-2 buat folder src/component/atom,molecules,src/config/firebase,redux,src/containers/pages,dasboard,src/home
-  berisi App.js
-3. difolder redux/action,reducers,store
-4. setiap membuat halaman di buat <import  React , {Component} from 'react'> dan class extends Component
-5. install react-router-dom' dan pasang di halaman App.js
-"start": "react-scripts start",
