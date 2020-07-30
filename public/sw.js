@@ -5,6 +5,7 @@ self.addEventListener('install',(event) =>{
         caches.open(cacheData)
         .then((cache) =>{
             cache.addAll([
+				'/sw.js',
                 '/static/media/gambar1.1a7a782b.png',
                 '/static/media/bg-halaman-utama.946a7ddd.jpg',
                 '/static/media/bg-halaman-about.12299767.jpg',
@@ -19,10 +20,11 @@ self.addEventListener('install',(event) =>{
                 '/static/js/main.chunk.js',
 				'/static/js/0.chunk.js',
 				'/static/js/1.chunk.js',
+				'/static/css/main.175c2c9e.chunk.css',
                 '/static/js/bundle.js',
-                '/index.html',
+				'/index.html',
+				'/static/js/2.affa9bb5.chunk.js',
                 '/',
-                "/users"
             ])
         })
     )
