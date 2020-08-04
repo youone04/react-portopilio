@@ -24,7 +24,7 @@ self.addEventListener('install',(event) =>{
                 '/static/js/bundle.js',
 				'/index.html',
 				'/static/js/2.affa9bb5.chunk.js',
-				'/static/js/main.61581bda.chunk.js',
+				'/static/js/main.d9d102cb.chunk.js',
 				'/static/js/runtime-main.1e8043c9.js',
 				'/static/css/main.b67f0b27.chunk.css',
                 '/',
