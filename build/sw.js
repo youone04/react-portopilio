@@ -5,9 +5,7 @@ self.addEventListener('install',(event) =>{
         caches.open(cacheData)
         .then((cache) =>{
             cache.addAll([
-				'/static/css/main.b67f0b27.chunk.css',
-				'/static/js/2.affa9bb5.chunk.js',
-				'/static/js/main.61581bda.chunk.js',
+				'/sw.js',
                 '/static/media/gambar1.1a7a782b.png',
                 '/static/media/bg-halaman-utama.946a7ddd.jpg',
                 '/static/media/bg-halaman-about.12299767.jpg',
@@ -18,12 +16,17 @@ self.addEventListener('install',(event) =>{
 				'/static/media/bg-halaman-kontak.0ee1f0de.jpg',
                 '/https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
                 '/manifest.json',
-                '/logo-yudi.png',
+				'/logo-yudi.png',
                 '/static/js/main.chunk.js',
 				'/static/js/0.chunk.js',
 				'/static/js/1.chunk.js',
+				'/static/css/main.175c2c9e.chunk.css',
                 '/static/js/bundle.js',
-                '/index.html',
+				'/index.html',
+				'/static/js/2.affa9bb5.chunk.js',
+				'/static/js/main.61581bda.chunk.js',
+				'/static/js/runtime-main.1e8043c9.js',
+				'/static/css/main.b67f0b27.chunk.css',
                 '/',
             ])
         })
