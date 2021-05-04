@@ -9,7 +9,9 @@
     }
     #splashScreen img{
         margin-top: 300px;
-        margin-left: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto 
     }
     @media screen and (max-width: 600px){
         #splashScreen img{
